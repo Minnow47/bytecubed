@@ -21,7 +21,7 @@ $ git clone https://github.com/Minnow47/bytecubed.git && cd bytecubed/terraform
 ## Create stateful backend
 We need to create a backend for our Terraform state. We will use S3. You could turn on versioning for this bucket.
 
-###EXAMPLE: 
+**EXAMPLE:**
 
 ```
 $ aws s3 mb s3://sd-tfstate --profile=terraform
@@ -90,17 +90,17 @@ $ terrafrom destroy
 
 ## REFERENCES
 
-###Installing awscli
+**Installing awscli**
 
 https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
-###Installing Docker
+**Installing Docker**
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 
-###Installing Terraform
+**Installing Terraform**
 
 https://www.terraform.io/intro/getting-started/install.html
 
